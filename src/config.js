@@ -10,8 +10,8 @@ module.exports = {
     //// HOSTING CONFIGURATION ////
 
     bindingAddress: '127.0.0.1',
-    port: 7860,
-    crossDomainPort: 7861,
+    port: 7861,
+    crossDomainPort: 7860,
     publicDir: path.join(__dirname, '../public'), // set to null to disable
 
     // enable or disable multithreading
