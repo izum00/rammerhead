@@ -91,7 +91,7 @@ class RammerheadProxy extends Proxy {
         logger = new RammerheadLogging({ logLevel: 'disabled' }),
         bindingAddress = '127.0.0.1',
         port = 8080,
-        crossDomainPort = 8081,
+        crossDomainPort = 7860,
         dontListen = false,
         ssl = null,
         getServerInfo = (req) => {
